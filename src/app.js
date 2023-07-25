@@ -20,9 +20,9 @@ window.onload = function() {
   body.classList.add("bg", "bg-success");
   let nuevoDiv = document.createElement("Div");
   let app = document.querySelector("#app");
-  nuevoDiv.classList.add("container", "bg", "bg-light", "rounded");
+  nuevoDiv.classList.add("container", "bg", "bg-light", "rounded", "mx-5");
   nuevoDiv.innerHTML =
-    '<div class="row symbol heading justify-content-start display-5">Fila1</div><br/><div class="row number justify-content-center">Fila2</div><br/><div class="row symbol reverse justify-content-end display-5">Fila3</div><br/>';
+    '<div class="row symbol heading justify-content-start display-5 mt-5">Fila1</div><br/><div class="row number justify-content-center">Fila2</div><br/><div class="row symbol reverse justify-content-end display-5">Fila3</div><br/>';
 
   app.appendChild(nuevoDiv);
 
